@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff !important;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+iframe {
+    height: 85vh;
+    width: 100vw;
+    position: absolute;
+    transform: translateY(110px);
+}
